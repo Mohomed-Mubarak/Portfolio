@@ -1,0 +1,311 @@
+
+/*----------css in small screen  max-width 480px----*/
+@media only screen and (max-width:480px){
+
+    .header{
+        font-size: 14px;
+    }
+
+    .header .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .nav .bar{
+        display: block;
+        font-size: 30px;
+    }
+    .nav .nav-bar{
+        background-color: azure;
+        position: fixed;
+        top: -400px;
+        right: 0;
+        width:  100%;
+        height: 400px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav-bar li{
+        display: block;
+        margin: 25px;
+        padding: 20px;
+    }
+    .nav .link{
+        display: none;
+    }
+
+    .nav-bar .bar{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+        border: 2px solid #343eab;
+        border-radius: 5px;
+    }
+
+    .logo{
+        font-size: 40px;
+    }
+
+    .nav-bar .logo2{
+        position: absolute;
+        top: 10px;
+        font-size: 30px;
+        display: block;   
+    }
+
+
+    .nav-bar .logo2{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        font-size: 30px;      
+    }
+
+    /*------reponsive home page-----*/
+
+    .home{
+        flex-wrap: wrap;
+        height: 200vh;
+        justify-content: center;
+    }
+
+    .home .text-content :where(h3,.typing){
+    color: var(--t-color);
+    font-size: 32px;
+    font-weight: 600;
+    }
+    .home .text-content{
+         margin-top: 100px;
+    }
+
+    .text-content h1{
+        font-size: 40px;
+    }
+    .home-profile{
+        margin-top: -100px;
+    }
+
+    .home .home-profile img{
+        margin-left: auto;
+        width: 400px,auto;
+        height: 400px,auto;
+    }
+
+    /*-----responsive about section----*/
+
+     .about{
+        flex-wrap: wrap-reverse;
+    }
+
+    .about-col-1{
+        display: none;
+    }
+    .about .about-col-2{
+        flex-basis: 100%;
+        padding: 20px;        
+    }
+
+    /*-----project---*/
+
+    .project{
+        padding: 2%;
+    }
+
+   /*--------service--------*/
+    
+    .s-list img {
+         width: 150px,auto;
+         height: 150px,auto;                          
+        }
+
+    /*-----Contact From responsive design-----*/
+    .Contact{
+        padding: 10px;
+    }
+    
+    .container-c{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        padding: 0%;
+    }
+    .form-container-1, .form-container-2{
+        flex-basis: 100%;
+    }
+
+    .form-container-1{
+        padding: 20px;
+    }
+
+    .form-container-1 fieldset{
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .form-container-1 fieldset label{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .form-container-1 fieldset legend .sub-title{
+        font-size: 28px;
+    }
+    .form-container-1 fieldset legend h2{
+        font-size: 20px;
+    }
+
+    .form-container-1 fieldset p{
+        font-size: 13px;
+        margin:0%;
+    }
+
+    .form-container-2{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .form-container-2 .form{
+        padding: 20px 0px 20px 20px;
+    } 
+
+    
+    .form-container-2 label{
+        font-size: 20px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:768px){
+    .header .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .nav .bar{
+        display: block;
+        font-size: 30px;
+    }
+    .nav .nav-bar{
+       /* background-image:linear-gradient(#3ce6919d, #bfdeca);*/
+        background-color: azure;
+        position: fixed;
+        top: -400px;
+        right: 0;
+        width:  100%;
+        height: 400px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid var(--t-color);
+    }
+
+    .nav-bar li{
+        display: block;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .nav .nav-bar li a,a{
+    padding: 10px 60px;
+}
+/* 
+    .nav .link{
+        display: none;
+    }*/
+
+    .nav-bar .bar{
+        position: absolute;
+        top: 25px;
+        left: 30px;
+        cursor: pointer;
+        border: 2px solid #343eab;
+        border-radius: 5px;
+    }
+
+    .nav-bar .logo2{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        font-size: 30px;
+        display: block;   
+    }
+
+
+     /*------reponsive home page-----*/
+
+    .home{
+        flex-wrap: wrap;
+        height: 200vh;
+        justify-content: center;
+    }
+
+    .home .text-content :where(h3,.typing){
+    color: var(--t-color);
+    font-size: 32px;
+    font-weight: 600;
+    }
+    .home .text-content{
+         margin-top: 100px;
+    }
+
+    .text-content h1{
+        font-size: 40px;
+    }
+    .home-profile{
+        margin-top: -100px;
+    }
+
+    .home .home-profile img{
+        margin-left: auto;
+        width: 400px,auto;
+        height: 400px,auto;
+    }
+
+
+    
+    .s-list img {
+         width: 250px;
+         height: 250px;                          
+        }
+
+    /*-----Contact From responsive design-----*/
+    .Contact{
+        padding: 5%;
+    }
+    
+    .container-c{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        padding: 0%;
+    }
+    .form-container-1, .form-container-2{
+        flex-basis: 100%;
+    }
+    
+    .form-container-2{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .form-container-2 .form{
+        padding: 20px 0px 20px 20px;
+    }
+
+}
+
+@media only screen and (max-width:1300px){
+    .s-list img {
+         width: 200px;
+         height: 200px;                          
+        }
+}
+
